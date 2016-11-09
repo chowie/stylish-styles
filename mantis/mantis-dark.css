@@ -1,0 +1,65 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document regexp('https://scc\.nictusa\.com/mantis/.*') {
+
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype');
+    }
+
+p {
+
+    color: #777;
+    line-height: 1.5;
+    margin-top: 0.5em;
+    padding: 0 0 25px;
+    text-align: center;
+}
+
+a > img table, table.width100 {
+
+    border: none;
+
+}
+
+pre {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: #3364a2;
+}
+
+    a:hover {
+        color: #333;
+    }
+
+    a.subtle {
+        color: #333;
+        text-decoration: none;
+        font-weight: normal;
+        line-height: 1.1;
+        word-wrap: break-word;
+        font-size: 25px;
+    }
+
+    a.resolved {
+        text-decoration: line-through underline;
+    }
+
+form {
+    display: inline;
+}
+
+    
+
+    label, input.button, input[type=submit], input.button-small {
+        cursor: pointer;
+    }
+
+    input.button:hover, input[type=submit]:hover, input.button-small:hover {
+
+    }
